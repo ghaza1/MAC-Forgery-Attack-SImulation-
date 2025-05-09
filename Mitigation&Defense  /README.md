@@ -147,11 +147,10 @@ If the server was using naive `MD5(secret + message)` instead of HMAC:
 
 ## 📚 Lessons Learned
 
-| Construction            | Vulnerable to Length Extension? | Secure?    |       |      |
-| ----------------------- | ------------------------------- | ---------- | ----- | ---- |
-| \`MD5(secret            |                                 | message)\` | ✅ Yes | ❌ No |
-| `HMAC-MD5(secret, msg)` | ❌ No                            | ✅ Yes      |       |      |
-
+| Construction            | Vulnerable to Length Extension? | Secure?    |  
+| ----------------------- | ------------------------------- | ---------- | 
+| \`MD5(secretmessage)\`  | ✅ Yes                             | ❌ No |
+| `HMAC-MD5(secret, msg)` | ❌ No                            | ✅ Yes      |      
 Use **HMAC** with a secure hash (SHA-256 preferred) to avoid this class of attacks.
 
 ---
