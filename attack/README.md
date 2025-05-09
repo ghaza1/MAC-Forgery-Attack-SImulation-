@@ -1,4 +1,8 @@
 <p align="center">
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=MD5%20Length%20Extension%20Attack%20Demo&fontAlignY=40&fontSize=40&fontColor=ffffff" alt="Title Banner"/>
+</p>  
+
+<p align="center">
     <img src="https://img.shields.io/badge/Made%20With-Python-blue?style=for-the-badge&logo=python&logoColor=white"/>
 
 </p>
